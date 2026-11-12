@@ -1,0 +1,2 @@
+execute as @e[tag=giant_simulacrum] at @s if entity @p[distance=..24,gamemode=!creative,gamemode=!spectator] run data modify entity @s angry_at set from entity @p[distance=..24,gamemode=!creative,gamemode=!spectator] UUID
+execute as @e[tag=giant_simulacrum] at @s if entity @p[distance=..24,gamemode=!creative,gamemode=!spectator] run data modify entity @s anger_end_time set value 400L

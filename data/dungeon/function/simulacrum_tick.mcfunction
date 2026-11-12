@@ -1,0 +1,1 @@
+execute as @e[tag=simulacrum_driver] at @s unless entity @e[tag=simulacrum,distance=..2.5] run kill @s

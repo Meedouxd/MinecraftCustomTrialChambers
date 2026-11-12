@@ -1,6 +1,11 @@
 {
   "values": [
     "dungeon:aggressive_bears",
-    "dungeon:aggressive_wolves"
+    "dungeon:aggressive_wolves",
+    "dungeon:bandit_tick",
+    "dungeon:simulacrum_tick",
+    "dungeon:flesh_atronach_tick",
+    "dungeon:giant_simulacrum_tick",
+    "dungeon:the_burrower_tick"
   ]
 }
