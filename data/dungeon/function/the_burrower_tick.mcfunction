@@ -1,6 +1,6 @@
 # 1. Ensure the bossbar exists and is styled
-bossbar add dungeon:burrower_boss {"text":"The Burrower","color":"dark_purple","bold":true}
-bossbar set dungeon:burrower_boss color purple
+bossbar add dungeon:burrower_boss {"text":"The Burrower","color":"green","bold":true}
+bossbar set dungeon:burrower_boss color green
 bossbar set dungeon:burrower_boss style notched_10
 
 # 2. Sync max health and current health to the active boss
