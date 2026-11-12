@@ -1,0 +1,58 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 1.0,
+  "total_mobs_added_per_player": 0.0,
+  "simultaneous_mobs": 1.0,
+  "simultaneous_mobs_added_per_player": 0.0,
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:husk",
+          "CustomName": {
+            "text": "The Starving Lich",
+            "color": "gold",
+            "bold": true
+          },
+          "CustomNameVisible": true,
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 2.0
+            },
+            {
+              "id": "minecraft:step_height",
+              "base": 1.5
+            },
+            {
+              "id": "minecraft:max_health",
+              "base": 100.0
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.115
+            },
+            {
+              "id": "minecraft:attack_damage",
+              "base": 200.0
+            }
+          ],
+          "Health": 100.0
+        }
+      }
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "minecraft:spawners/trial_chamber/key"
+    },
+    {
+      "weight": 3,
+      "data": "minecraft:spawners/trial_chamber/consumables"
+    }
+  ],
+  "items_to_drop_when_ominous": "minecraft:spawners/trial_chamber/items_to_drop_when_ominous"
+}

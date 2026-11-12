@@ -1,0 +1,52 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 4.0,
+  "total_mobs_added_per_player": 2.0,
+  "simultaneous_mobs": 2.0,
+  "simultaneous_mobs_added_per_player": 1.0,
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:polar_bear",
+          "Tags": ["rabid_bear"],
+          "CustomName": {
+            "text": "Rabid Bear",
+            "color": "aqua",
+            "bold": true
+          },
+          "CustomNameVisible": true,
+          "DeathLootTable": "custom_trials:entities/rabid_bear",
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 40.0
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.32
+            },
+            {
+              "id": "minecraft:attack_damage",
+              "base": 8.0
+            }
+          ],
+          "Health": 40.0
+        }
+      }
+    }
+  ],
+"loot_tables_to_eject": [
+    {
+      "weight": 3,
+      "data": "dungeon:gameplay/trial_rewards"
+    },
+    {
+      "weight": 1,
+      "data": "minecraft:spawners/trial_chamber/key"
+    }
+  ],
+  "items_to_drop_when_ominous": "minecraft:spawners/trial_chamber/items_to_drop_when_ominous"
+}

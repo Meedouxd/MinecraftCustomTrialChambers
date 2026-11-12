@@ -1,0 +1,53 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 6.0,
+  "total_mobs_added_per_player": 2.0,
+  "simultaneous_mobs": 2.0,
+  "simultaneous_mobs_added_per_player": 1.0,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie",
+          "CustomName": {
+            "text": "luke turvey",
+            "color": "red",
+            "bold": true
+          },
+          "CustomNameVisible": true,
+          "equipment": {
+            "head": {
+              "id": "minecraft:diamond_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:diamond_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:diamond_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:diamond_boots",
+              "count": 1
+            }
+          }
+        }
+      }
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "weight": 3,
+      "data": "dungeon:gameplay/trial_rewards"
+    },
+    {
+      "weight": 3,
+      "data": "minecraft:spawners/trial_chamber/consumables"
+    }
+  ],
+  "items_to_drop_when_ominous": "minecraft:spawners/trial_chamber/items_to_drop_when_ominous"
+}

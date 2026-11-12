@@ -1,0 +1,2 @@
+execute as @e[tag=rabid_bear] at @s if entity @p[distance=..24,gamemode=!creative,gamemode=!spectator] run data modify entity @s Brain.memories."minecraft:angry_at".value set from entity @p[distance=..24,gamemode=!creative,gamemode=!spectator] UUID
+execute as @e[tag=rabid_bear] at @s if entity @p[distance=..24,gamemode=!creative,gamemode=!spectator] run data modify entity @s Brain.memories."minecraft:angry_at".ttl set value 400L
