@@ -1,3 +1,4 @@
+
 {
   "type": "minecraft:chest",
   "pools": [
@@ -6,23 +7,42 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
-          "functions": [
+          "name": "minecraft:diamond_hoe",
+          "modifier": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": {
-                  "text": "Hellbringer",
-                  "color": "dark_red",
-                  "bold": true,
+              "type": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Hellbringer",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "Forged in the deepest depths.",
+                  "color": "gray",
                   "italic": false
                 },
-                "minecraft:enchantments": {
-                  "minecraft:sharpness": 5,
-                  "minecraft:fire_aspect": 2,
-                  "minecraft:unbreaking": 3
+                {
+                  "text": "A legendary reaper of souls.",
+                  "color": "red",
+                  "italic": false
                 }
-              }
+              ]
+            },
+            {
+              "type": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 5,
+                "minecraft:fire_aspect": 2,
+                "minecraft:unbreaking": 3
+              },
+              "add": false
             }
           ]
         }
