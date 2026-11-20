@@ -6,6 +6,8 @@
     "dungeon:simulacrum_tick",
     "dungeon:flesh_atronach_tick",
     "dungeon:giant_simulacrum_tick",
-    "dungeon:the_burrower_tick"
+    "dungeon:the_burrower_tick",
+    "dungeon:burr_tick",
+    "dungeon:final_boss_tick"
   ]
 }

@@ -1,0 +1,51 @@
+
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Toyland Chestplate",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "Forged by the disciples of the first king of Toyland.",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "A legendary piece of armor.",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "type": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 10,
+                "minecraft:unbreaking": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

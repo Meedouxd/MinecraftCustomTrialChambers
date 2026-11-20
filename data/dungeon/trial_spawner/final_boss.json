@@ -1,0 +1,79 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 1.0,
+  "total_mobs_added_per_player": 2.0,
+  "simultaneous_mobs": 2.0,
+  "simultaneous_mobs_added_per_player": 1.0,
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:wither_skeleton",
+          "Tags": ["fastarr_death_incarnate"],
+          "CustomName": {
+            "text": "Fastarr, Death Incarnate",
+            "color": "dark_red",
+            "bold": true
+          },
+          "CustomNameVisible": true,
+          "Glowing": true,
+          "PersistenceRequired": true,
+          "Health": 100.0,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 100.0
+            },
+            {
+              "id": "minecraft:scale",
+              "base": 4.0
+            },
+            {
+              "id": "minecraft:step_height",
+              "base": 2.0
+            },
+            {
+              "id": "minecraft:knockback_resistance",
+              "base": 0.8
+            }
+          ],
+          "equipment": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:netherite_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:netherite_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:netherite_boots",
+              "count": 1
+            },
+            "mainhand": {
+              "id": "minecraft:netherite_sword",
+              "count": 1
+            },
+            "offhand": {
+              "id": "minecraft:totem_of_undying",
+              "count": 5
+            }
+          }
+        }
+      }
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "dungeon:gameplay/hellbringer_reward"
+    }
+  ],
+  "items_to_drop_when_ominous": "dungeon:gameplay/hellbringer_reward"
+}
